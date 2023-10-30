@@ -30,7 +30,7 @@ public class SI_RegPagi_22166010_Latihan28_GantiKata {
         newWord = input.nextLine();
         
         System.out.println("======= Hasil Formatting =======");
-        String oldSentence = sentence.replace(oldWord, newWord);
+        String oldSentence = sentence.replace(oldWord, oldWord);
         String newSentence = sentence.replace(oldWord, newWord);
         System.out.println("Kalimat awal: " + oldSentence);
         System.out.println("Kalimat baru: " + newSentence);
